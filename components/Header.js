@@ -50,6 +50,14 @@ function Header() {
 
 			{/* Right */}
 
+			<div>
+				{/*Profile pic*/}
+
+				<p className="whitespace-nowrap font-semibold pr-3">Dev Shakthi. B</p>
+
+
+			</div>
+
 		</div>
 
 	);

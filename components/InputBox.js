@@ -1,4 +1,8 @@
+import Image from "next/Image";
+
 function InputBox(){
+
+    const [session] = useSession{}
 
     return <div>
         <div>

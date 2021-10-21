@@ -3,8 +3,8 @@ import StoryCard from "./StoryCard";
 
 const stories = [
    {
-    name: "Shakthi Pavithran",
-    src: "/pavi.jpg",
+    name: "Shakthi",
+    src: "https://i.im.ge/2021/10/20/oSCY68.jpg",
     profile: "https://edunext2-storage-cf.edunexttechnologies.com/1567754370628_sak_lkg.jpg",
    },
    {

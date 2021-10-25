@@ -14,7 +14,7 @@ function InputBox(){
         e.preventDefault();
         if(!inputRef.current.value) return;
 
-        db.collection("posts").add({
+        db.collection('posts').add({
             message: inputRef.current.value,
             name: session.user.name,
             image: session.user.image,
@@ -22,7 +22,9 @@ function InputBox(){
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         });
 
-        inputRef.current.value = "";
+        inputRef.current.value ="";
+
+        
     };
 
     return (
@@ -58,12 +60,12 @@ function InputBox(){
                     <p className="text-xs sm:text-sm xl: text-base">Live video</p>
                 </div>
 
-                <div>
+                <div className="inputIcon">
                     <CameraIcon className="h-7 text-green-400"/>
                     <p className="text-xs sm:text-sm xl:text-base">Photo/Video</p>
                 </div>
 
-                <div>
+                <div className="inputIcon">
                     <EmojiHappyIcon className="h-7 text-yellow-300"/>
                     <p className="text-xs sm:text-sm xl:text-base">Feeling/Activity</p>
                 </div>
